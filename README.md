@@ -1,6 +1,5 @@
 SevSeg
 ======
- Copyright 2016 Dean Reading
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -18,9 +17,6 @@ This library turns your Arduino into a seven segment display controller! Use it 
 
 It supports common cathode and common anode displays, and the use of switching transistors. Numbers can be displayed in decimal or hexadecimal representation, with decimal places. Characters can be displayed (as accurately as possible). It also supports multiple displays, of varying dimensions. Shift registers and similar devices are NOT supported.
 
-[Download it from GitHub][1].
-
-Direct any questions or suggestions to deanreading@hotmail.com. If I have the time, I'm happy to help you get things working.
 
 #### Update Version 3.3.0 (February 2017)
 
