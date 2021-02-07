@@ -48,6 +48,7 @@ Documentation effectively connects humans and machines.
     * Apply coding conventions, such as file organization, comments, naming conventions, programming practices, etc.
 
 ![Documenting Code]({{site.baseurl}}/assets/img/function_example.png)
+
     * Include information for contributors
     * Include citation information
     * Include licensing information
