@@ -36,7 +36,9 @@ Documentation effectively connects humans and machines.
         * A brief description of the project
         * Installation instructions
         * A short example/tutorial
+
 ![Documenting Code]({{site.baseurl}}/assets/img/README_Sample.png)
+
     * Allow issue tracker for others
     * Write an API documentation
         * What a function do
@@ -44,6 +46,7 @@ Documentation effectively connects humans and machines.
         * What a function returns
     * Document your code
     * Apply coding conventions, such as file organization, comments, naming conventions, programming practices, etc.
+
 ![Documenting Code]({{site.baseurl}}/assets/img/function_example.png)
     * Include information for contributors
     * Include citation information
