@@ -6,9 +6,6 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: how-to-start.jpg # Add image post (optional)
 tags: [Programming, Learn] # add tag
 ---
-The IoT will generate massive volumes of data that flow to the computers for analysis,
-resulting in the collection of much richer information and insights in real time and used by
-automated systems to respond intelligently with appropriate actions.
 
 >Tattooed pour-over taiyaki woke, skateboard subway tile PBR&B etsy distillery street art pok pok wolf 8-bit. Vegan bicycle rights schlitz subway tile unicorn taiyaki.
 
