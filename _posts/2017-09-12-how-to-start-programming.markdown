@@ -26,8 +26,29 @@ Documentation effectively connects humans and machines.
        * Encourage open science 
        * Allow reproducibility and transparency
 
-
-
 ![I and My friends]({{site.baseurl}}/assets/img/55c8bcff18b94.png)
 
+## Best Practices for Documenting Your Project 
 
+### Best practices for writing documentation:
+
+    * Include A README file that contains
+        * A brief description of the project
+        * Installation instructions
+        * A short example/tutorial
+![Documenting Code]({{site.baseurl}}/assets/img/README_Sample.png)
+    * Allow issue tracker for others
+    * Write an API documentation
+        * What a function do
+        * What the function's parameters or arguments are
+        * What a function returns
+    * Document your code
+    * Apply coding conventions, such as file organization, comments, naming conventions, programming practices, etc.
+![Documenting Code]({{site.baseurl}}/assets/img/function_example.png)
+    * Include information for contributors
+    * Include citation information
+    * Include licensing information
+    * Link to your e-mail address at the end
+    * List all the version of the files along with the major edits you did in each version
+
+### An important tip: Naming files should be descriptive and consistent!
