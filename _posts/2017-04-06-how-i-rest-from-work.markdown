@@ -26,33 +26,33 @@ for every action there is an equal and opposite reaction.
 
 ![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
 
-# X-axis: the axis that points left/right or west/east
+###X-axis:### the axis that points left/right or west/east
 
-# Y-axis: the axis that points forwards/backwards or north/south
+###Y-axis:### the axis that points forwards/backwards or north/south
 
-# Z-axis: the axis that points up/down
+###Z-axis:### the axis that points up/down
 
-# Roll: when the aerial vehicle tilts left/right; rotates about the y axis
+###Roll:### when the aerial vehicle tilts left/right; rotates about the y axis
 
-# Pitch: when the aerial vehicle tilts forwards/backwards; rotates about the x axis
+###Pitch:### when the aerial vehicle tilts forwards/backwards; rotates about the x axis
 
-# Yaw: when the aerial vehicle spins in place left or right; rotates about the z axis
+###Yaw:### when the aerial vehicle spins in place left or right; rotates about the z axis
 
-# Degrees of Freedom (DOF): the number of independent factors that can be assessed (I'll explain this term in better detail later, with an example)
+###Degrees of Freedom (DOF):### the number of independent factors that can be assessed (I'll explain this term in better detail later, with an example)
 
-# Helicopters
+***Helicopters***
 have one main propeller that can provide the acceleration, but need the small rotor in the back to counteract the torque created by the big spinning propeller. Additionally, there are countless other control mechanisms to physically tilt the main propeller in order for the helicopter to move in the 2D-plane.
 
-# Bicopters
+***Bicopters***
 have two equal-sized counter-rotating propellers that provide the acceleration, roll, and the yaw control, but needs the assistance of two servos to tilt the propellers in order to maintain balance and control the pitch.
 
-# Tricopters
+***Tricopters***
 have three equal-sized propellers that provide the roll, pitch, and acceleration control. Two of the propellers spin clockwise and the remaining propeller spins counterclockwise. Due to the extra propeller spinning clockwise, there is no control over the yaw angle, so a servo must be use to tilt the last motor in order to compensate and gain yaw control.
 
-# Quadcopters
+***Quadcopters***
 with four propellers, have the least amount of physical propellers and motors that can allow it to travel in 4 degrees of freedom (move linearly in the x-axis, move linearly in the y-axis, move linearly in the z-axis, and accelerate). However, if one motor fails, it will be the demise of the quadcopter.....unless there is specific code that can compensate.
 
-# Exacopters and Octocopters
+***Exacopters and Octocopters***
 have 6 and 8 propellers, respectively. They offer an advantage over quadcopters that if it loses one propeller, it will still be able to and safely, but at the cost of increase complexity, decreased flight time, higher cost, and less maneuverability.
 
 Unlike planes, quadcopters are naturally unstable and will need software assistance. Overall, the greatest challenge in the construction of the quadcopter will not be the hardware, but instead, the code itself.
