@@ -9,13 +9,13 @@ tags: [Drones, Hawaii]
 ---
 ## Newton's 3 Laws of Motion
 
-## First Law:
+### First Law:
 what is at rest will stay at rest and what is in motion will stay in motion, unless there is an external force acting on it.
 
-## Second Law:
+### Second Law:
 the force required to accelerate an object to a certain velocity depends on the mass (F=ma).
 
-## Third Law:
+### Third Law:
 for every action there is an equal and opposite reaction.
 
 * Based off of the first law, a drone will stay on the unless you decide to move it. A drone will move if you move it.
@@ -26,19 +26,19 @@ for every action there is an equal and opposite reaction.
 
 ![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
 
-###X-axis:### the axis that points left/right or west/east
+_X-axis:_ the axis that points left/right or west/east
 
-###Y-axis:### the axis that points forwards/backwards or north/south
+#Y-axis:_ the axis that points forwards/backwards or north/south
 
-###Z-axis:### the axis that points up/down
+_Z-axis:_ the axis that points up/down
 
-###Roll:### when the aerial vehicle tilts left/right; rotates about the y axis
+_Roll:_ when the aerial vehicle tilts left/right; rotates about the y axis
 
-###Pitch:### when the aerial vehicle tilts forwards/backwards; rotates about the x axis
+_Pitch:_ when the aerial vehicle tilts forwards/backwards; rotates about the x axis
 
-###Yaw:### when the aerial vehicle spins in place left or right; rotates about the z axis
+_Yaw:_ when the aerial vehicle spins in place left or right; rotates about the z axis
 
-###Degrees of Freedom (DOF):### the number of independent factors that can be assessed (I'll explain this term in better detail later, with an example)
+_Degrees of Freedom (DOF):_ the number of independent factors that can be assessed (I'll explain this term in better detail later, with an example)
 
 ***Helicopters***
 have one main propeller that can provide the acceleration, but need the small rotor in the back to counteract the torque created by the big spinning propeller. Additionally, there are countless other control mechanisms to physically tilt the main propeller in order for the helicopter to move in the 2D-plane.
