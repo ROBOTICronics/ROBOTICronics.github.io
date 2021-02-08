@@ -11,11 +11,9 @@ since batteries, even if of long duration, constitute an obstacle to the diffusi
 that can be obtained, as an example, from vibration induced by a mechanical movement of a motor or from very small photovoltaic panels,
 some smart objects will always be equipped with a buffer battery that is recharged according to the availability of the energy source.
 
-![](assets/img/435876_1_En_13_Fig1_HTML.png)
+![Ambient Assisted Living (AAL)]({{site.baseurl}}/assets/img/435876_1_En_13_Fig1_HTML.png)
 
 However, there are other small devices that can work in the absence of an energy accumulator: for example, we are talking about ... real devices that can be powered
 also able to provide up to 20 mA of current for a few moments, sufficient to power a microcontroller capable of sampling the signal from a sensor and transmitting the read value to a smartphone for further processing.
-
-### Powering Motors
 
 ...
