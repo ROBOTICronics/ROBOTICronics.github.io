@@ -89,5 +89,6 @@ The drone is symmetrical, so previous assumption holds true for side-to-side mot
 
 ***How to create a forward component of thrust from the rotors of a drone moving at a constant speed.*** Let us suppose to increase the rotation rate of rotors 3 and 4 (the rear ones) while decreasing the rate of rotors 1 and 2: the total thrust force will remain equal to the weight, so the drone will stay at the same vertical level. Also, the increased rotation of those rotors will still produce zero angular momentum, since one of the rear rotors is spinning counterclockwise and the other clockwise.
 ![How to fly forward]({{site.baseurl}}/assets/img/spring_2017_sketches_key5.jpg)
+
 The same holds true for the front rotors, so the drone does not rotate. However, the greater force in the back of the drone means it will tilt forward. Now, a slight increase in thrust for all rotors will produce a net thrust force that has a component to balance the weight along with a forward motion component.
 
