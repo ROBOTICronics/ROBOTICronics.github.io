@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Track Objects
+title: How To Force Objects To Fly
 date: 2017-09-12 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: i-rest.jpg # Add image post (optional)
@@ -56,3 +56,7 @@ with four propellers, have the least amount of physical propellers and motors th
 have 6 and 8 propellers, respectively. They offer an advantage over quadcopters that if it loses one propeller, it will still be able to and safely, but at the cost of increase complexity, decreased flight time, higher cost, and less maneuverability.
 
 Unlike planes, quadcopters are naturally unstable and will need software assistance. Overall, the greatest challenge in the construction of the quadcopter will not be the hardware, but instead, the code itself.
+
+![The Physycs of Why Drones Fly]({{site.baseurl}}/assets/img/DroneTA_GettyImages-599365398.webp)
+
+
