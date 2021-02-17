@@ -76,10 +76,20 @@ Drones use rotors for propulsion and control. All forces come in pairs, which me
 
 The configuration shown above, the red rotors are rotating counterclockwise, so have a positive angular momentum; the green ones are rotating clockwise, so have a negative angular momentum. With the two sets of rotors rotating in opposite directions, the total angular momentum is zero. Angular momentum is obtained by multiplying the angular velocity by the moment of inertia. The moment of inertia deals with rotation (instead of mass), depending on how fast the rotors spin.
 ...in this configuration, the total angular momentum is zero.
+
 Let us suppose to decrease the angular velocity of rotor 1 such that now it has a smaller angular momentum. If nothing else happened, the total angular momentum of the drone would now be greater than zero. Of course, that can't happen. So the drone rotates clockwise so that the body of the drone has an angular momentum of -1. Boom. Rotation. But, decreasing the spin of rotor 1 (did indeed cause the drone to rotate) also decreased the thrust from rotor 1 so that the net upward force does not equal the gravitational force, causing the drone to descend, because the thrust forces aren't balanced, in the direction of rotor 1.
+
 To avoid all these problems, please decrease the spin of rotor 1 and 3 and increase the spin for rotors 2 and 4, so that the angular momentum of the rotors still doesn't add up to zero, so the drone body must rotate, except that the total force remains equal to the gravitational force and the drone continues to hover. Since the lower thrust rotors are diagonally opposite from each other, the drone can still stay balanced.
 
-## Forward, backward
+## Forwards, Backwards, Sideways
 
+The drone is symmetrical, so moving forward is equal to moving backward.
 
+The drone is symmetrical, so previous assumption holds true for side-to-side motion.
+
+? None, because the drone is symmetrical. The same holds true for side-to-side motion. Basically a quadcopter drone is like a car where every side is the front. This means that explaining how to move forward also explains how to move back or to either side.
+
+Let us suppose to increase the rotation rate of rotors 3 and 4 (the rear ones) while decreasing the rate of rotors 1 and 2: the total thrust force will remain equal to the weight, so the drone will stay at the same vertical level. Also, the increased rotation of those rotors will still produce zero angular momentum, since one of the rear rotors is spinning counterclockwise and the other clockwise.
+![The rotors diagram]({{site.baseurl}}/assets/img/spring_2017_sketches_key5.jpg)
+The same holds true for the front rotors, and so the drone does not rotate. However, the greater force in the back of the drone means it will tilt forward. Now a slight increase in thrust for all rotors will produce a net thrust force that has a component to balance the weight along with a forward motion component.
 
