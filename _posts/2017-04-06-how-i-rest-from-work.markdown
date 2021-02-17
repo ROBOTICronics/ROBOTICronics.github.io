@@ -28,7 +28,7 @@ for every action there is an equal and opposite reaction.
 
 _X-axis:_ the axis that points left/right or west/east
 
-#Y-axis:_ the axis that points forwards/backwards or north/south
+_Y-axis:_ the axis that points forwards/backwards or north/south
 
 _Z-axis:_ the axis that points up/down
 
@@ -58,5 +58,16 @@ have 6 and 8 propellers, respectively. They offer an advantage over quadcopters 
 Unlike planes, quadcopters are naturally unstable and will need software assistance. Overall, the greatest challenge in the construction of the quadcopter will not be the hardware, but instead, the code itself.
 
 ![The Physycs of Why Drones Fly]({{site.baseurl}}/assets/img/DroneTA_GettyImages-599365398.webp)
+##Vertical Motion
+
+Drones use rotors for propulsion and control. All forces come in pairs, which means that while the rotor spinning blades push down on the air, the air pushes up on the rotor.  More, the lift comes down to controlling the upward and downward force: the faster the rotors spin, the greater the lift, and vice-versa.
+###hover, climb, descend.
+
+* ***_To hover_***. Easy, the net thrust of the four rotors pushing the drone up must be equal to the gravitational force pulling it down.
+
+* ***_To climb_***. Easy, just increase the speed (_thrust_) of the four rotors so that there is a non-zero upward force that is greater than the weight. Now, there are three forces on the drone: weight, thrust, and air drag; so, the thrusters need to be greater than for just a hover.
+
+* _***To descend***_, the opposite of climbing. Easy, decrease the rotor speed (_thrust_) so the net force is downward.
 
 
+![The rotors diagram]({{site.baseurl}}/assets/img/spring_2017_sketches_key4.jpg)
