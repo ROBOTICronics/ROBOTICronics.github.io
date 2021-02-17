@@ -58,7 +58,8 @@ have 6 and 8 propellers, respectively. They offer an advantage over quadcopters 
 Unlike planes, quadcopters are naturally unstable and will need software assistance. Overall, the greatest challenge in the construction of the quadcopter will not be the hardware, but instead, the code itself.
 
 ![The Physycs of Why Drones Fly]({{site.baseurl}}/assets/img/DroneTA_GettyImages-599365398.webp)
-##Vertical Motion
+
+## Vertical Motion
 
 Drones use rotors for propulsion and control. All forces come in pairs, which means that while the rotor spinning blades push down on the air, the air pushes up on the rotor.  More, the lift comes down to controlling the upward and downward force: the faster the rotors spin, the greater the lift, and vice-versa.
 ###hover, climb, descend.
@@ -69,5 +70,16 @@ Drones use rotors for propulsion and control. All forces come in pairs, which me
 
 * _***To descend***_, the opposite of climbing. Easy, decrease the rotor speed (_thrust_) so the net force is downward.
 
+## Direction
 
 ![The rotors diagram]({{site.baseurl}}/assets/img/spring_2017_sketches_key4.jpg)
+
+The configuration shown above, the red rotors are rotating counterclockwise, so have a positive angular momentum; the green ones are rotating clockwise, so have a negative angular momentum. With the two sets of rotors rotating in opposite directions, the total angular momentum is zero. Angular momentum is obtained by multiplying the angular velocity by the moment of inertia. The moment of inertia deals with rotation (instead of mass), depending on how fast the rotors spin.
+...in this configuration, the total angular momentum is zero.
+Let us suppose to decrease the angular velocity of rotor 1 such that now it has a smaller angular momentum. If nothing else happened, the total angular momentum of the drone would now be greater than zero. Of course, that can't happen. So the drone rotates clockwise so that the body of the drone has an angular momentum of -1. Boom. Rotation. But, decreasing the spin of rotor 1 (did indeed cause the drone to rotate) also decreased the thrust from rotor 1 so that the net upward force does not equal the gravitational force, causing the drone to descend, because the thrust forces aren't balanced, in the direction of rotor 1.
+To avoid all these problems, please decrease the spin of rotor 1 and 3 and increase the spin for rotors 2 and 4, so that the angular momentum of the rotors still doesn't add up to zero, so the drone body must rotate, except that the total force remains equal to the gravitational force and the drone continues to hover. Since the lower thrust rotors are diagonally opposite from each other, the drone can still stay balanced.
+
+## Forward, backward
+
+
+
