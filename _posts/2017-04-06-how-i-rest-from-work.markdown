@@ -126,10 +126,12 @@ Although it might be tempting to buy a preassembled frame kit, building the fram
 * _Motor Brackets_ ... you need four of them on a quadcopter, so that you can connect the motors on each arms end.
 
 The frame can be made of aluminum, carbon fiber or wood, but the material that is mostly used for the arms is aluminum. More precisely, the square hollow rails of the arms are made of aluminum. They are relatively lightweight, rigid and cheap. Since they are not known as great compensators for the motor vibrations like carbon fiber ones are, they can confuse the sensors.
-![Pitch]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg =256x)
+![Pitch]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg=256)
 
 Carbon fiber offers much better absorption of the motor vibrations and is the most rigid one; on the other side, it is also the most expensive one. Carbon fiber is the superior choice, but this very much depends on your personal budget.
-<iframe src="https://www.mydronelab.com/accessories/quadcopter-frames.html" frameborder="0" allowfullscreen="true"> </iframe>
+<figure>
+  <iframe src="https://www.mydronelab.com/accessories/quadcopter-frames.html" frameborder="0" allowfullscreen="true"> </iframe>
+ </figure>
 
 Wood boards are also better for motor vibration absorbtion, but are quite fragile and can break easily in the event of a crash. You can also opt for a frame that is pre-made and only needs assembling
 
