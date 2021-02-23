@@ -126,7 +126,7 @@ Although it might be tempting to buy a preassembled frame kit, building the fram
 * _Motor Brackets_ ... you need four of them on a quadcopter, so that you can connect the motors on each arms end.
 
 The frame can be made of aluminum, carbon fiber or wood, but the material that is mostly used for the arms is aluminum. More precisely, the square hollow rails of the arms are made of aluminum. They are relatively lightweight, rigid and cheap. Since they are not known as great compensators for the motor vibrations like carbon fiber ones are, they can confuse the sensors.
-![Frame of a drone|50%]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg)*Frame of a drone*
+![Frame of a drone]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg)*Frame of a drone*
 
 Carbon fiber offers much better absorption of the motor vibrations and is the most rigid one; on the other side, it is also the most expensive one. Carbon fiber is the superior choice, but this very much depends on your personal budget.
 <figure>
@@ -151,13 +151,45 @@ Also, you will need motors that rotate counter-clockwise, so that they counterac
 
 ***ESC***. The Electronic Speed Controller is like a nerve that delivers the movement information from the flight controller (the supervisor) to the motors (as arm or leg muscles). It regulates how much power the motors get, which determines the speed and direction changes of the drone.
 
+The device that is in charge of controlling the speed of the motors is a cheap controller board, used only for motors. It comes with an input for a battery, and has a motor output with three phases, so you will need four of them, in case of quad, for each motor. Pay attention to the max level of the current that comes from the source, choose a controller with 10A or higher.
+
 ***Propellers***. Depending on the type of a quad you build, you can use: i) 5-inch racing props for less thrust but more speed, ii) 9 to 10/11-inch props to obtain stable, aerial photography flights.
 
+Propellers generate thrust, and each motor needs one in order for the drone to fly. Make sure that you buy the proper rotating pairs of propellers for clockwise and counterclockwise rotation. They can be bought in various pitches and diameters.
+
+Choose the propellers according to the size of your frame, and once decided which propellers you will use, only then you can choose your motors. Propellers are standardized, and here are the most used ones for quads:
+
+* 5 pitch, 8 diameter – Small quads
+* 8 pitch, 9 diameter – Small quads
+* 5 pitch, 10 diameter – Medium-sized quads
+* 7 pitch, 10 diameter – Medium-sized quads
+* 5 pitch, 12 diameter– Provide plenty of thrusts and are great for quads that are larger
+
+Few important terms follows.
+
+***First***, the larger the diameter and pitch are, the more thrust will the propeller produce. It will need more power, but the drone will be capable of lifting more weight. Depending of motors, i) high RPM motors need smaller or mid-sized propellers, ii) low RPM motors need the larger propellers so that they can keep the drone in the air at lower speed.
+
+***Second***, to achieve the perfect balance between the motors and propellers, you first need to decide the usage of the drone. As an example, a stable and powerful enough drone to lift filming and photography equipment,  needs a) a motor with less RPM’s and more torque, b) longer or higher pitched propellers.
+
 ***Battery***. You can choose from 2S, 3S, 4S, or even 5S batteries, depending on how much the maximum voltage level has been setup. But, for a standard for a quad that is planned to be used for aerial filming or photography (just an example), you will need a 11.4 V 3S battery. You could go with the 22.8 V 4S if you are building a racing drone, causing the motors to spin a lot faster.
+The most recommended power source for your quadcopter is the LiPo, that is not heavy, with the current levels ideal for what you need; LiPo batteries come as a single 3.7V cell or packed together as one (up to 10 cells which provide 37V). NiMH is a cheaper, but also heavier, option. 
+
+The most popular version among the drone hobbyists is known as the 3SP1 battery, which comes with three cells and provides 11.1V.
 
 ***Arduino board***. The choice of the specific model depends on the type of the drone to build.
 
+You can either choose to use a controller board that’s only purpose is to control a quadcopter, or you can choose an Arduino UNO, which is a general purpose microcontroller that allows you to build your own flight controller by buying the parts you want to install, so assembling the controller on your own.
+
 ***IMU***. Basically a board that is a sum of various sensors that help the drone know where it is and how to level itself.
+
+This unit is in charge of measuring the drone’s orientation, velocity, and the force of gravity. This allows the electronics to control the amount of power sent to motors, in order to adjust the motors’ speeds. The unit comes equipped with a 3-axis gyroscope, and a 3-axis accelerometer: this combination is known as the 6DOF IMU. A gyroscope is there to read the values of angular velocity, while the accelerometer is in charge of measuring acceleration and force, meaning that it can feel the downwards gravity. Since it comes with three-axis sensors, it can sense the orientation of the drone.
 
 ***RC Controller*** The choice of the transmitter depends on the choice of the protocol to use and the signal receiver that is onboard the drone.
 
+The most common way of programming and controlling a drone is through an RC transmitter. You can usually choose between two modes, Acrobatic or Stable.
+
+* ***Acrobatic*** For controlling the drone in Acrobatic mode, the Gyroscope is the only one which sends the values to processing. In this case, the controlling sticks are there only for controlling and setting the speed of rotation for the three axes, and if you let go of them, the values are not re-balanced automatically. This comes in handy for those who want to perform aerial stunts, because tilting the drone a bit is possible, and after the release of the sticks, the quad keeps the position. It’s not a good mode for beginners because it is quite difficult to control your quad in this mode. Basically, the more skill you have at controlling the drone, the less help you will likely want with stability. 
+
+* ***Stable*** So when you’re a beginner drone user, use the second mode of control, because for determining the drone’s orientation, every single sensor works in this mode. The motor speeds will be controlled automatically, and the drone will be balanced on its own.
+
+* 
