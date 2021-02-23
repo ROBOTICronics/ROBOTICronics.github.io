@@ -92,3 +92,25 @@ The drone is symmetrical, so previous assumption holds true for side-to-side mot
 
 The same holds true for the front rotors, so the drone does not rotate. However, the greater force in the back of the drone means it will tilt forward. Now, a slight increase in thrust for all rotors will produce a net thrust force that has a component to balance the weight along with a forward motion component.
 
+## Pitch
+
+Once the drone in flight is perfectly stable, to make it:
+
+* ***move forward*** we should act on pitch: the rotation speed of the ***M3*** and ***M4*** ***rear motors*** must be ***increased***, while the rotation speed of the M1 and M2 front motors must decreased,
+* ***bring back*** increase the rotation speed of the M1 and M2 front motors and decrease the rotation speed of the M3 and M4 rear motors.
+
+![Pitch]({{site.baseurl}}/assets/img/drone_forward_backward.png)
+
+Pls, note that  the reference is respect to the observer.
+
+## Roll
+
+Once the drone in flight is perfectly stable, to make it:
+
+* ***move sideways***, by varying the speed of the motors in such a way as to be able to tilt the quadcopter to one side, thus allowing it to be moved to the right or left. The reference is respect to the observer.
+
+![Roll]({{site.baseurl}}/assets/img/drone_sideways.png)
+
+## Yaw
+
+that's, the rotation on itself, by varying the rotation speed of two motors positioned in the same axis.
