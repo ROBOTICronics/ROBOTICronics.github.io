@@ -114,3 +114,36 @@ Once the drone in flight is perfectly stable, to make it:
 ## Yaw
 
 that's, the rotation on itself, by varying the rotation speed of two motors positioned in the same axis.
+
+## The elements as listed in order to fly
+
+***Frame, the “backbone” of the quadcopter***. The frame is what keeps all the parts of the helicopter together. It has to be sturdy, but on the other hand, it also has to be light so that the motors and the batteries don’t struggle to keep it in the air.
+
+Although it might be tempting to buy a preassembled frame kit, building the frame on your own can help you kick start your true DIY process. The Frame of your quadcopter has to possess strength, but it also has to be flexible enough to compensate for the vibrations the motors produce. It needs to have the following parts:
+
+* _enter Holding Plate_ ... for mounting the electronics.
+* _Arms_ ... for instance, there are four arms on a quadcopter.
+* _Motor Brackets_ ... you need four of them on a quadcopter, so that you can connect the motors on each arms end.
+
+The frame can be made of aluminum, carbon fiber or wood, but the material that is mostly used for the arms is aluminum. More precisely, the square hollow rails of the arms are made of aluminum. They are relatively lightweight, rigid and cheap. Since they are not known as great compensators for the motor vibrations like carbon fiber ones are, they can confuse the sensors.
+![Pitch]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg =256x)
+
+Carbon fiber offers much better absorption of the motor vibrations and is the most rigid one; on the other side, it is also the most expensive one. Carbon fiber is the superior choice, but this very much depends on your personal budget.
+<iframe src="https://www.mydronelab.com/accessories/quadcopter-frames.html" frameborder="0" allowfullscreen="true"> </iframe>
+
+Wood boards are also better for motor vibration absorbtion, but are quite fragile and can break easily in the event of a crash. You can also opt for a frame that is pre-made and only needs assembling
+
+***Motors***. The thrust that allows the quadcopter to get airborne is provided by Brushless DC motors and each of them is separately controlled by an ***E***lectronic ***S***peed ***C***ontroller (ESC).
+
+***ESC***. The Electronic Speed Controller is like a nerve that delivers the movement information from the flight controller (the supervisor) to the motors (as arm or leg muscles). It regulates how much power the motors get, which determines the speed and direction changes of the drone.
+
+***Propellers***. Depending on the type of a quad you build, you can use: i) 5-inch racing props for less thrust but more speed, ii) 9 to 10/11-inch props to obtain stable, aerial photography flights.
+
+***Battery***. You can choose from 2S, 3S, 4S, or even 5S batteries, depending on how much the maximum voltage level has been setup. But, for a standard for a quad that is planned to be used for aerial filming or photography (just an example), you will need a 11.4 V 3S battery. You could go with the 22.8 V 4S if you are building a racing drone, causing the motors to spin a lot faster.
+
+***Arduino board***. The choice of the specific model depends on the type of the drone to build.
+
+***IMU***. Basically a board that is a sum of various sensors that help the drone know where it is and how to level itself.
+
+***RC Controller*** The choice of the transmitter depends on the choice of the protocol to use and the signal receiver that is onboard the drone.
+
