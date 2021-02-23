@@ -129,10 +129,11 @@ The frame can be made of aluminum, carbon fiber or wood, but the material that i
 ![Frame of a drone]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg)*Frame of a drone*
 
 Carbon fiber offers much better absorption of the motor vibrations and is the most rigid one; on the other side, it is also the most expensive one. Carbon fiber is the superior choice, but this very much depends on your personal budget.
+<!--
 <figure>
   <iframe src="https://www.mydronelab.com/accessories/quadcopter-frames.html" style="width:100%; height:640px;" frameborder="0" allowfullscreen="true"> </iframe>
  </figure>
-
+-->
 Wood boards are also better for motor vibration absorbtion, but are quite fragile and can break easily in the event of a crash. You can also opt for a frame that is pre-made and only needs assembling
 
 ***Motors***. The thrust that allows the quadcopter to get airborne is provided by Brushless DC motors and each of them is separately controlled by an ***E***lectronic ***S***peed ***C***ontroller (ESC).
