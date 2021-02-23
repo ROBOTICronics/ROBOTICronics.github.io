@@ -140,7 +140,7 @@ Wood boards are also better for motor vibration absorbtion, but are quite fragil
 ### Brushless Motors
 
 These motors are almost the same thing as traditional DC motors, but the shaft on them doesn’t come with a brush, which is there to change the direction of the power that goes through the coils. When buying these motors, you need to check their technical data.
-![Brushles motors]({{site.baseurl}}/assets/img/Brushless-motors.jpg){width=50%}
+![Brushles motors]({{site.baseurl}}/assets/img/Brushless-motors.jpg)
 
 The motor is positioned immediately under the quadcopter propeller and controls its rotation and speed. So, for a quadcopter, you will receive 4 motors in the box.
 #### The “***Kv-rating***“.
@@ -150,7 +150,7 @@ It tells you the number of RPMs the motor is capable of generating with a certai
 Also, you will need motors that rotate counter-clockwise, so that they counteract the props torque effect.
 
 ***ESC***. The Electronic Speed Controller is like a nerve that delivers the movement information from the flight controller (the supervisor) to the motors (as arm or leg muscles). It regulates how much power the motors get, which determines the speed and direction changes of the drone.
-
+![Electronic Speed Controller]({{site.baseurl}}/assets/img/what-is-an-esc.jpg)*Electronic Speed Controller*
 The device that is in charge of controlling the speed of the motors is a cheap controller board, used only for motors. It comes with an input for a battery, and has a motor output with three phases, so you will need four of them, in case of quad, for each motor. Pay attention to the max level of the current that comes from the source, choose a controller with 10A or higher.
 
 ***Propellers***. Depending on the type of a quad you build, you can use: i) 5-inch racing props for less thrust but more speed, ii) 9 to 10/11-inch props to obtain stable, aerial photography flights.
@@ -192,4 +192,3 @@ The most common way of programming and controlling a drone is through an RC tran
 
 * ***Stable*** So when you’re a beginner drone user, use the second mode of control, because for determining the drone’s orientation, every single sensor works in this mode. The motor speeds will be controlled automatically, and the drone will be balanced on its own.
 
-* 
