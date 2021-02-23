@@ -126,7 +126,7 @@ Although it might be tempting to buy a preassembled frame kit, building the fram
 * _Motor Brackets_ ... you need four of them on a quadcopter, so that you can connect the motors on each arms end.
 
 The frame can be made of aluminum, carbon fiber or wood, but the material that is mostly used for the arms is aluminum. More precisely, the square hollow rails of the arms are made of aluminum. They are relatively lightweight, rigid and cheap. Since they are not known as great compensators for the motor vibrations like carbon fiber ones are, they can confuse the sensors.
-![Frame of a drone]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg width="256")*Frame of a drone*
+![Frame of a drone]({{site.baseurl}}/assets/img/frame-for-your-quad.jpg){width=50%}*Frame of a drone*
 
 Carbon fiber offers much better absorption of the motor vibrations and is the most rigid one; on the other side, it is also the most expensive one. Carbon fiber is the superior choice, but this very much depends on your personal budget.
 <figure>
@@ -140,7 +140,7 @@ Wood boards are also better for motor vibration absorbtion, but are quite fragil
 ### Brushless Motors
 
 These motors are almost the same thing as traditional DC motors, but the shaft on them doesn’t come with a brush, which is there to change the direction of the power that goes through the coils. When buying these motors, you need to check their technical data.
-![Brushles motors]({{site.baseurl}}/assets/img/Brushless-motors.jpg)
+![Brushles motors]({{site.baseurl}}/assets/img/Brushless-motors.jpg){width=50%}
 
 The motor is positioned immediately under the quadcopter propeller and controls its rotation and speed. So, for a quadcopter, you will receive 4 motors in the box.
 #### The “***Kv-rating***“.
