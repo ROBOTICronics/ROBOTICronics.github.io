@@ -23,10 +23,13 @@ Il suo valore è $$h = 6,626068 10^{–34} J\cdot s$$.
 
 Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxwell, vale piuttosto bene fintanto che il prodotto dell'energia per il tempo dà un risultato sensibilmente maggiore di h.
 
+###**Rare Book, Physical Review, vol. 7, Issue 3, pp. 355-388**
+![A Direct Photoelectric Determination of Planck's "h" Millikan R.A. 1916]({{site.baseurl}}/assets/pdf/PhysRev.7.355.pdf)
+
 **Motivazioni.**
 
 Planck era interessato a spiegare lo spettro continuo emesso dai corpi solidi caldi, ovvero lo "spettro di corpo nero", chiamato così poiché si considera emesso da un oggetto caldo ideale (appunto, il "corpo nero").<br >
-L'esperienza quotidiana (un prato è verde, i mattoni sono rossi) insegna che un oggetto solido riscaldato emette luce avente una frequenza dominante, che si sposta gradualmente verso la zona blu dello spettro al crescere della temperatura; esempi come un ferro rovente lavorato da un fabbro, il colore del quale ferro ulteriormente riscaldato sposta la luce emessa dal rosso cupo all'arancione, oppure la luce infrarossa emessa da una mano umana calda, o ancora una lampadina che normalmente brilla di luce bianco-gialla, spostandosi verso l'arancione se la batteria che la alimenta si sta scaricando, e, infine, l'arco voltaico che si produce tra du elettrodi di ccarbone attraversati da una forte corrente, si colora di luce blu-ultravioletta, la cui frequenza è nociva per l'occhio umano.
+L'esperienza quotidiana (un prato è verde, i mattoni sono rossi) insegna che un oggetto solido riscaldato emette luce avente una frequenza dominante, che si sposta gradualmente verso la zona blu dello spettro al crescere della temperatura; esempi come un ferro rovente lavorato da un fabbro, il colore del quale ferro ulteriormente riscaldato sposta la luce emessa dal rosso cupo all'arancione, oppure la luce infrarossa emessa da una mano umana calda, o ancora una lampadina che normalmente brilla di luce bianco-gialla, spostandosi verso l'arancione se la batteria che la alimenta si sta scaricando, e, infine, l'arco voltaico che si produce tra du elettrodi di carbone attraversati da una forte corrente, si colora di luce blu-ultravioletta, la cui frequenza è nociva per l'occhio umano.
 
 ## Il metodo di misura
 Si sfrutta l’emissione luminosa da parte dei dispositivi a semiconduttore noti come LED.
@@ -51,7 +54,7 @@ Calcolare la tensione di innesco del led, ovvero la differenza di potenziale che
 - 3 led (verde, giallo, rosso)
 
 
-## Descrizione delle varie fasi dell’esperimento:##
+## Descrizione delle varie fasi dell’esperimento:
 - Fase 1: Preparazione dell’H/w (inserire anche una foto del progetto reale)
 Si utilizzao 3 led (verde, giallo, rosso), una breadboard, una resistore, vari cavi e un potenziometro e Arduino.
 - La tensione di attivazione del diodo LED:
@@ -60,7 +63,7 @@ Si utilizzao 3 led (verde, giallo, rosso), una breadboard, una resistore, vari c
     - Metodo 2a. Manualmente, individuando due punti corrente-tensione, tracciando i punto di attivazione del diodo LED.
     - Metodo 2b. Automatizzando il tracciamento della curva caratteristica V-I del diodo LED con l'uso di un $$\mu C$$ ed estrapolando la tensione di attivazione.
 
-## Dati ottenuti dalle misurazioni##
+## Dati ottenuti dalle misurazioni
 ---
 Tipo LED | Lunghezza d'onda (nm)  | Frequenza (Hz) | Tensione di attivazione (V)|
 | Infrarosso | 930 | 3.22581 | 1.0 |
