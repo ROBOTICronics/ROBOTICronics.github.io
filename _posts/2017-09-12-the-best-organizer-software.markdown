@@ -25,7 +25,7 @@ Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxw
 
 **Rare Book, Physical Review, vol. 7, Issue 3, pp. 355-388 - Millikan R.A. - 1916**
 
-![A Direct Photoelectric Determination of Planck h]({{site.baseurl}}/assets/pdf/PhysRev.7.355.pdf)
+![A Direct Photoelectric Determination of Planck h]({{site.baseurl}}/assets/pdf/PhysRev_7_355_pdf.zip)
 
 **Motivazioni.**
 
