@@ -23,7 +23,7 @@ Il suo valore è $$h = 6,626068 10^{–34} J\cdot s$$.
 
 Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxwell, vale piuttosto bene fintanto che il prodotto dell'energia per il tempo dà un risultato sensibilmente maggiore di h.
 
-###**Rare Book, Physical Review, vol. 7, Issue 3, pp. 355-388**
+**Rare Book, Physical Review, vol. 7, Issue 3, pp. 355-388**
 ![A Direct Photoelectric Determination of Planck's "h" Millikan R.A. 1916]({{site.baseurl}}/assets/pdf/PhysRev.7.355.pdf)
 
 **Motivazioni.**
@@ -38,7 +38,7 @@ Attraverso la giunzione p-n del diodo LED verrà fatta scorrere una corrente dir
 
 1.1 ![formula 1.1](https://render.githubusercontent.com/render/math?math=E = V_{LED} \cdot e = h \cdot \nu)
 
-Fig.1 ![Schema elettrico di principio]({{site.baseurl}}(/assets/img/2021-12-08_211705.png)
+Fig.1 ![Schema elettrico di principio]({{site.baseurl}}/assets/img/2021-12-08_211705.png)
 
 ## Scopo dell’esperimento
 Calcolare la tensione di innesco del led, ovvero la differenza di potenziale che causa l’accensione del diodo LED, necessaria, quindi, a calcolare e a verificare la costante di Planck. 
@@ -76,14 +76,14 @@ Dalla formula 1.1 si ricava:
 
 Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}{\nu}$$ come il reciproco delòla pendenza della retta $$ y = m \cdot x + n$$.
 
-![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png =292x)
+![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
 
 ###Metodo 2a.
 Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C),$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
 
 L'esperimento si svolgerà in modo tale da trovare il valore $$V_{LED}$$ che rappresenta la tensione di attivazione del diodo LED.
 
-Fig.2 Catteristica V-I del diodo LED]({{site.baseurl}}(/assets/img/diode-VIcomplete.png = 292x)
+Fig.2 Catteristica V-I del diodo LED]({{site.baseurl}}/assets/img/diode-VIcomplete.png)
 
 Il grafico è rappresentato dalla seguente espressione matematica, ove l'incognita è $$V$$:
 
@@ -91,7 +91,7 @@ Il grafico è rappresentato dalla seguente espressione matematica, ove l'incogni
 
 Ricavare le coppie (V,I) ottenuto variando il valore R del circuito rappresentato nella figura Fig.1.
 
-Fig.3 ![Caratteristica V-I a punti]({{site.baseurl}}(/assets/img/diodo-Vth.png = 292x)
+Fig.3 ![Caratteristica V-I a punti]({{site.baseurl}}/assets/img/diodo-Vth.png)
 
 a) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
 
