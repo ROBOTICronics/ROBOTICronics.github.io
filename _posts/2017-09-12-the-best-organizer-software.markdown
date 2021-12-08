@@ -21,6 +21,10 @@ La costante \(h\), fondamentale per la teoria quantistica (a livello atomico), �
 
 Le sue dimensioni sono Joule * secondi, se l'energia viene misurata in Joule e la frequ4nza in oscillazioni al secondo.
 
-Il suo valore è $h = 6,626068 10–34 joule-sec$.
+Il suo valore è $$h = 6,626068 10–34 joule-sec$$.
 
 Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxwell, vale piuttosto bene fintanto che il prodotto dell'energia per il tempo dà un risultato sensibilmente maggiore di h.
+
+Motivazioni. Planck era interessato a spiegare lo spettro continuo emesso dai corpi solidi caldi, ovvero lo "spettro di corpo nero", chiamato così poiché si considera emesso da un oggetto caldo ideale (appunto, il "corpo nero"). L'esperienza quotidiana (un prato è verde, i mattoni sono rossi) insegna che un oggetto solido riscaldato emette luce di frequenza dominante che si sposta gradualmente verso la zona blu dello spettro al crescere della temperatura; esempi come un ferro rovente lavorato da un fabbro, il colore del quale ferro ulteriormente riscaldato sposta la luce emessa dal rosso cupo all'arancione, oppure la luce infrarossa emessa da una mano umana calda, o ncora una lampadina che normalmente brilla di luce bianco-gialla, spostandosi verso l'arancione se la batteria che la alimenta si sta scaricando, e , infine, l'arco voltaico che si produce tra du elettrodi di ccarbone attraversati da una forte corrente, si colora di luce blu-ultravioletta, la cui frequenza è nociva per l'occhio umano.
+
+
