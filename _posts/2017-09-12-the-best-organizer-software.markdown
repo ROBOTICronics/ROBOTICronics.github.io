@@ -23,8 +23,9 @@ Il suo valore è $$h = 6,626068 10^{–34} J\cdot s$$.
 
 Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxwell, vale piuttosto bene fintanto che il prodotto dell'energia per il tempo dà un risultato sensibilmente maggiore di h.
 
-**Rare Book, Physical Review, vol. 7, Issue 3, pp. 355-388**
-![A Direct Photoelectric Determination of Planck's "h" Millikan R.A. 1916]({{site.baseurl}}/assets/pdf/PhysRev.7.355.pdf)
+**Rare Book, Physical Review, vol. 7, Issue 3, pp. 355-388 - Millikan R.A. - 1916**
+
+![A Direct Photoelectric Determination of Planck h]({{site.baseurl}}/assets/pdf/PhysRev.7.355.pdf)
 
 **Motivazioni.**
 
@@ -78,7 +79,7 @@ Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}
 
 ![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
 
-###Metodo 2a.
+### Metodo 2a.
 Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C),$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
 
 L'esperimento si svolgerà in modo tale da trovare il valore $$V_{LED}$$ che rappresenta la tensione di attivazione del diodo LED.
