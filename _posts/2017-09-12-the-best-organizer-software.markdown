@@ -15,15 +15,12 @@ tags: [Productivity, Software] # add tag
 # La costante di Planck rilevata sperimentalmente
 Il lettore potrà apprezzare quanto sia fondamentale la formula di Einstein scoperta nel 1905, che gli valse il premio Nobel nel 1921.
 
-$E = hν$
+$$E = h \cdot ν$$
 
-La costante $h$, fondamentale per la teoria quantistica, è la costante di Planck, che la propose nel 1900. La sue dimensioni sono Joule * secondi, se l'energia viene misurata in Joule e la frequ4nza in oscillazioni al secondo. Il suo valore è $h = 6,626068 10–34 joule-sec$.
+La costante \(h\), fondamentale per la teoria quantistica (a livello atomico), è la costante di Planck, che la propose nel 1900.
 
+Le sue dimensioni sono Joule * secondi, se l'energia viene misurata in Joule e la frequ4nza in oscillazioni al secondo.
 
+Il suo valore è $h = 6,626068 10–34 joule-sec$.
 
-    Essa fu scoperta nel 1905, lo stesso anno in cui Einstein pubblicò il suo famoso articolo sulla relatività -- e in realtà nel 1921 il Premio Nobel gli fu assegnato non per la relatività ma per questa formula. La cosa da notare è che la costante h, che compare qui e che è basilare per la teoria quantistica, era già nota nel 1905. Noi la chiamiamo costante di Planck perché fu Max Planck che per primo la propose nel 1900.
-
-    Se l'energia si misura in joule e la frequenza in oscillazioni per secondo, le "dimensioni" di h -- il modo cioè con cui essa è connessa alle unità di misura delle quantità fisiche -- sono di joule moltiplicato secondi (la frequenza è 1/sec, "oscillazioni per secondo"). Si tratta di un numero estremamente piccolo
-h = 6,626068 10–34 joule-sec
-
-e questa piccolezza è legata al fatto che la "fisica classica", quella delle leggi di Newton e di Maxwell, vale piuttosto bene fintanto che il prodotto dell'energia per il tempo dà un risultato sensibilmente maggiore di h. È solo su scala atomica che le nuove leggi prendono il sopravvento. 
+Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxwell, vale piuttosto bene fintanto che il prodotto dell'energia per il tempo dà un risultato sensibilmente maggiore di h.
