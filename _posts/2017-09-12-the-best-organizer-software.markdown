@@ -7,17 +7,20 @@ img: Work-in-progress-1024x603.png # Add image post (optional)
 tags: [Productivity, Software] # add tag
 ---
 <script src="//yihui.org/js/math-code.js" defer></script>
+
 <script defer   src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 ![not yet ready]({{site.baseurl}}/assets/img/Work-in-progress-1024x603.png)
+
+
 # La costante di Planck rilevata sperimentalmente
 Il lettore potrà apprezzare quanto sia fondamentale la formula di Einstein scoperta nel 1905, che gli valse il premio Nobel nel 1921.
 
-$$E = h \cdot \nu$$
+$$ E = h \cdot \nu $$
 
 La costante $$h$$, fondamentale per la teoria quantistica (a livello atomico), è la **costante di Planck**, che la propose nel 1900.
 
-Le sue dimensioni sono Joule * secondi, se l'energia viene misurata in Joule e la frequ4nza in oscillazioni al secondo.
+Le sue dimensioni sono _Joule * secondi_, se l'energia viene misurata in Joule e la frequ4nza in oscillazioni al secondo.
 
 Il suo valore è $$h = 6,626068 10^{–34} J\cdot s$$.
 
@@ -59,6 +62,7 @@ Si utilizzao 3 led (verde, giallo, rosso), una breadboard, una resistore, vari c
 
 ## Dati ottenuti dalle misurazioni##
 ---
-Tipo LED | Lunghezza d’onda (nm)  | Frequenza $$10^_{14}$$ Hz | Tensione di Attivazione (V)|
-Infrarosso |  930 | 3.22581 | 1.0!
+Tipo LED | Lunghezza d'onda (nm)  | Frequenza (Hz) | Tensione di attivazione (V)|
+| Infrarosso | 930 | 3.22581 | 1.0 |
+|  |
 ---
