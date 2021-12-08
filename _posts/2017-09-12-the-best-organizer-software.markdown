@@ -49,7 +49,7 @@ Calcolare la tensione di innesco del led, ovvero la differenza di potenziale che
 - 3 led (verde, giallo, rosso)
 
 
-### Descrizione delle varie fasi dell’esperimento:
+### Descrizione delle varie fasi dell’esperimento:##
 - Fase 1: Preparazione dell’H/w (inserire anche una foto del progetto reale)
 Si utilizzao 3 led (verde, giallo, rosso), una breadboard, una resistore, vari cavi e un potenziometro e Arduino.
 - La tensione di attivazione del diodo LED:
