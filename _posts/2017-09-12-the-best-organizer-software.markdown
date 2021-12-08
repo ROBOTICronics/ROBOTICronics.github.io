@@ -69,5 +69,5 @@ Dalla formula 1.1 si ricava:
 
 Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}{\nu}$$ come il reciproco delòla pendenza della retta $$ y = m \cdot x + n$$.
 
-![Schema elettrico di principio]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
+![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
 
