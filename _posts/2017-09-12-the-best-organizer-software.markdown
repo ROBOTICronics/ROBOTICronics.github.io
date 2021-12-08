@@ -73,7 +73,7 @@ Dalla formula 1.1 si ricava:
 
 Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}{\nu}$$ come il reciproco delòla pendenza della retta $$ y = m \cdot x + n$$.
 
-![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
+![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png =256x)
 
 ###Metodo 2a.###
 Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C),$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
