@@ -76,14 +76,14 @@ Dalla formula 1.1 si ricava:
 
 Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}{\nu}$$ come il reciproco delòla pendenza della retta $$ y = m \cdot x + n$$.
 
-![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png =256x)
+![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png =292x)
 
 ###Metodo 2a.###
 Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C),$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
 
 L'esperimento si svolgerà in modo tale da trovare il valore $$V_{LED}$$ che rappresenta la tensione di attivazione del diodo LED.
 
-Fig.2 Catteristica V-I del diodo LED]({{site.baseurl}}(/assets/img/diode-VIcomplete.png)
+Fig.2 Catteristica V-I del diodo LED]({{site.baseurl}}(/assets/img/diode-VIcomplete.png = 292x)
 
 Il grafico è rappresentato dalla seguente espressione matematica, ove l'incognita è $$V$$:
 
@@ -91,7 +91,7 @@ Il grafico è rappresentato dalla seguente espressione matematica, ove l'incogni
 
 Ricavare le coppie (V,I) ottenuto variando il valore R del circuito rappresentato nella figura Fig.1.
 
-Fig.3 ![Caratteristica V-I a punti]({{site.baseurl}}(/assets/img/diodo-Vth.png)
+Fig.3 ![Caratteristica V-I a punti]({{site.baseurl}}(/assets/img/diodo-Vth.png = 292x)
 
 a) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
 
