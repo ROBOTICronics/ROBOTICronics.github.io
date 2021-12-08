@@ -27,6 +27,8 @@ Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxw
 
 ![A Direct Photoelectric Determination of Planck h]({{site.baseurl}}/assets/pdf/PhysRev_7_355_pdf.zip)
 
+![A Direct Photoelectric Determination of Planck h]({{site.baseurl}}/assets/pdf/PhysRev_7_355.pdf)
+
 **Motivazioni.**
 
 Planck era interessato a spiegare lo spettro continuo emesso dai corpi solidi caldi, ovvero lo "spettro di corpo nero", chiamato così poiché si considera emesso da un oggetto caldo ideale (appunto, il "corpo nero").<br >
