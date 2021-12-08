@@ -36,7 +36,11 @@ Si sfrutta l’emissione luminosa da parte dei dispositivi a semiconduttore noti
 
 Attraverso la giunzione p-n del diodo LED verrà fatta scorrere una corrente diretta; gli elettroni, ricombinandosi con le lacune in prossimità della giunzione, produrranno fotoni di energia $$E\cdot f$$ prossima al valore dell'**energy gap** (l'intervallo dellle energie proibite situate tra la banda di valenza e quella di conduzione). L'energia di questi fotoni emessi è data dal dal lavoro fatto dal campo elettrico $$V_{LED}\cdot e$$ applicato alla giunzione polarizzata direttamente (quadrante I).
 
-$$ E = V_{LED} \cdot e = h \cdot \nu$$
+$$
+E = V_{LED} \cdot e = h \cdot \nu
+$$
+
+![formula](https://render.githubusercontent.com/render/math?math=E = V_{LED} \cdot e = h \cdot \nu)
 
 ![Schema elettrico di principio]({{site.baseurl}}/assets/img/2021-12-08_170407.png)
 
