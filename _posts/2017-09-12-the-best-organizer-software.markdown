@@ -6,7 +6,11 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: Work-in-progress-1024x603.png # Add image post (optional)
 tags: [Productivity, Software] # add tag
 ---
-
+<script src="//yihui.org/js/math-code.js" defer></script>
+<!-- Just one possible MathJax CDN below. You may use others. -->
+<script defer
+  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 ![not yet ready]({{site.baseurl}}/assets/img/Work-in-progress-1024x603.png)
 # La costante di Planck rilevata sperimentalmente
 Il lettore potrà apprezzare quanto sia fondamentale la formula di Einstein scoperta nel 1905, che gli valse il premio Nobel nel 1921.
