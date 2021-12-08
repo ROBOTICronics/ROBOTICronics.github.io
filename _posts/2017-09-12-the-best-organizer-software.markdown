@@ -10,9 +10,6 @@ tags: [Productivity, Software] # add tag
 
 <script defer   src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
-![not yet ready]({{site.baseurl}}/assets/img/Work-in-progress-1024x603.png)
-
-
 # La costante di Planck rilevata sperimentalmente
 Il lettore potrà apprezzare quanto sia fondamentale la formula di Einstein scoperta nel 1905, che gli valse il premio Nobel nel 1921.
 
