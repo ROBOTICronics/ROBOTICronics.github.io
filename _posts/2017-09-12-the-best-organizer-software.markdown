@@ -33,7 +33,7 @@ Si sfrutta l’emissione luminosa da parte dei dispositivi a semiconduttore noti
 
 Attraverso la giunzione p-n del diodo LED verrà fatta scorrere una corrente diretta; gli elettroni, ricombinandosi con le lacune in prossimità della giunzione, produrranno fotoni di energia $$E\cdot f$$ prossima al valore dell'**energy gap** (l'intervallo dellle energie proibite situate tra la banda di valenza e quella di conduzione). L'energia di questi fotoni emessi è data dal dal lavoro fatto dal campo elettrico $$V_{LED}\cdot e$$ applicato alla giunzione polarizzata direttamente (quadrante I).
 
-1.1 ![formula](https://render.githubusercontent.com/render/math?math=E = V_{LED} \cdot e = h \cdot \nu)
+1.1 ![formula 1.1](https://render.githubusercontent.com/render/math?math=E = V_{LED} \cdot e = h \cdot \nu)
 
 ![Schema elettrico di principio]({{site.baseurl}}/assets/img/2021-12-08_170407.png)
 
@@ -55,7 +55,6 @@ Si utilizzao 3 led (verde, giallo, rosso), una breadboard, una resistore, vari c
 - La tensione di attivazione del diodo LED:
   - Metodo 1. All'interno di una camera oscurata si miusra la tensione ai capi dei terminali anodo e catodo con un voltmetro, rilevando questa tensione elettrica nel momento in cui il diodo LED emette luce.
   - Determinazione della caratteristica I-V del diodo LED, estrapolando la tensione al _ginocchio_ di detta curva.
-- 
 
 ## Dati ottenuti dalle misurazioni##
 ---
@@ -66,4 +65,9 @@ Tipo LED | Lunghezza d'onda (nm)  | Frequenza (Hz) | Tensione di attivazione (V)
 
 Dalla formula 1.1 si ricava:
 
-![formula](https://render.githubusercontent.com/render/math?math=h = \frac(V_{LED}{\nu}\cdot e)
+![formula 1.2](https://render.githubusercontent.com/render/math?math=h = \frac{V_{LED}}{\nu}\cdot e)
+
+Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}{\nu}$$ come il reciproco delòla pendenza della retta $$ y = m \cdot x + n$$.
+
+![Schema elettrico di principio]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
+
