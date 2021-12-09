@@ -88,7 +88,7 @@ Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C),$$ (valore elementare della 
 
 L'esperimento si svolgerà in modo tale da trovare il valore $$V_{LED}$$ che rappresenta la tensione di attivazione del diodo LED.
 
-Fig.2 Catteristica V-I del diodo LED]({{site.baseurl}}/assets/img/diode-VIcomplete.png)
+Fig.2 ![Caratteristica V-I del diodo LED]({{site.baseurl}}/assets/img/diode-VIcomplete.png)
 
 Il grafico è rappresentato dalla seguente espressione matematica, ove l'incognita è $$V$$:
 
