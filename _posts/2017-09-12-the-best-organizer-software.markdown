@@ -102,12 +102,15 @@ Fig.4 ![Acquisizione della caratteristica V-I]({{site.baseurl}}/assets/img/2021-
 
 La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 
-|diodo LED | m | m_error | n | error_n| $$V_{LED}$$| $$\lambda (nm) |
+|diodo LED | m | m_error | n | error_n| $$V_{LED}$$| $$\lambda$$ (nm) |
 |----------|:---:|:---:|:---:|:---:|
 | Rosso | 3.38014 | +/- 0.2823       (8.352%) | -2.31808 | +/- 0.4436       (19.14%) | 1.458 | 630 |
 |  Verde | 2.55754 | +/- 0.1625       (6.356%) | -2.49641| +/- 0.3437       (13.77%) | 1.0245 | 525 |
 | Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.15497| +/- 0.3618       (16.79%)| 1.0263 | 470 |
 
+Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della caratteristica V-I di un diodo LED.
+
+![LED diode V-I curve video clip]({/assets/video/VID20211213150044.mp4} "Acquisizione della caratteristica V-I di un diodo LED")
 
 ### oppure.
 
