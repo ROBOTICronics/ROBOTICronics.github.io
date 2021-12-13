@@ -107,7 +107,7 @@ La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della caratteristica V-I di un diodo LED.
 
 <figure class="video_container">
-  <iframe src="https://github.com/ROBOTICronics/roboticronics.github.io/blob/main/assets/video/VID20211213150044short.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://drive.google.com/file/d/1cB21b5hqTXkdI0XR-aguuLYEeTyGIvLB/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ### oppure.
