@@ -109,7 +109,7 @@ Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della ca
 <object data="/assets/video/VID20211213150044short.mp4" type="application/mp4" width="75%"></object>
 
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/0B6m34D8cFdpMZndKTlBRU0tmczg/preview" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://github.com/ROBOTICronics/roboticronics.github.io/blob/main/assets/video/VID20211213150044cut.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ### oppure.
