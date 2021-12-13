@@ -39,7 +39,7 @@ L'esperienza quotidiana (un prato è verde, i mattoni sono rossi) insegna che un
 ## Il metodo di misura
 Si sfrutta l’emissione luminosa da parte dei dispositivi a semiconduttore noti come LED.
 
-Attraverso la giunzione p-n del diodo LED verrà fatta scorrere una corrente diretta; gli elettroni, ricombinandosi con le lacune in prossimità della giunzione, produrranno fotoni di energia $$E\cdot f$$ prossima al valore dell'**energy gap** (l'intervallo dellle energie proibite situate tra la banda di valenza e quella di conduzione). L'energia di questi fotoni emessi è data dal dal lavoro fatto dal campo elettrico $$V_{LED}\cdot e$$ applicato alla giunzione polarizzata direttamente (quadrante I).
+Attraverso la giunzione p-n del diodo LED verrà fatta scorrere una corrente diretta; gli elettroni, ricombinandosi con le lacune in prossimità della giunzione, produrranno fotoni di energia $$E\cdot \nu$$ prossima al valore dell'**energy gap** (l'intervallo dellle energie proibite situate tra la banda di valenza e quella di conduzione). L'energia di questi fotoni emessi è data dal dal lavoro fatto dal campo elettrico $$V_{LED}\cdot e$$ applicato alla giunzione polarizzata direttamente (quadrante I).
 
 1.1 ![formula 1.1](https://render.githubusercontent.com/render/math?math=E = V_{LED} \cdot e = h \cdot \nu)
 
@@ -75,7 +75,7 @@ Dalla formula 1.1 si ricava:
 
 ![formula 1.2](https://render.githubusercontent.com/render/math?math=h = \frac{V_{LED}}{\nu}\cdot e)
 
-Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}{\nu}$$ come il reciproco delòla pendenza della retta $$ y = m \cdot x + n$$.
+Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}{\nu}$$ come il reciproco della pendenza della retta $$ y = m \cdot x + n$$.
 
 ![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
 
@@ -100,13 +100,13 @@ Utilizzando un sistema di acquisizione automatica di dati tramite l'utilizzo di 
 
 Fig.4 ![Acquisizione della caratteristica V-I]({{site.baseurl}}/assets/img/2021-12-13_105244RedGreenBluLED-VIcurves.png)
 
-La regressione lineare $$ y = k\cdot x + q $$ comporta per i tre diodi LED:
+La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 
-|diodo LED | k | k_error | q | error_q| $$V_{LED}$$|
+|diodo LED | m | m_error | n | error_n| $$V_{LED}$$| $$\lambda (nm) |
 |----------|:---:|:---:|:---:|:---:|
-| Rosso | 3.38014 | +/- 0.2823       (8.352%) | -2.31808 | +/- 0.4436       (19.14%) | 1.458 |
-|  Verde | 2.55754 | +/- 0.1625       (6.356%) | -2.49641| +/- 0.3437       (13.77%) | 1.0245 |
-| Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.15497| +/- 0.3618       (16.79%)| 1.0263 |
+| Rosso | 3.38014 | +/- 0.2823       (8.352%) | -2.31808 | +/- 0.4436       (19.14%) | 1.458 | 630 |
+|  Verde | 2.55754 | +/- 0.1625       (6.356%) | -2.49641| +/- 0.3437       (13.77%) | 1.0245 | 525 |
+| Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.15497| +/- 0.3618       (16.79%)| 1.0263 | 470 |
 
 
 ### oppure.
