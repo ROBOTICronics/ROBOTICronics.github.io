@@ -25,10 +25,6 @@ Il lettore noti che la "fisica classica", quella delle leggi di Newton e di Maxw
 
 **Rare Book, Physical Review, vol. 7, Issue 3, pp. 355-388 - Millikan R.A. - 1916**
 
-![A Direct Photoelectric Determination of Planck h]({{site.baseurl}}/assets/pdf/PhysRev_7_355_pdf.zip)
-
-![A Direct Photoelectric Determination of Planck h]({{site.baseurl}}/assets/pdf/PhysRev_7_355.pdf)
-
 <object data="/assets/pdf/PhysRev_7_355.pdf" type="application/pdf" width="100%"></object>
 
 **Motivazioni.**
@@ -79,7 +75,7 @@ Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}
 
 ![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
 
-### Metodo 2a.
+### Metodo 2b.
 Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
 
 L'esperimento si svolgerà in modo tale da trovare il valore $$V_{LED}$$ che rappresenta la tensione di attivazione del diodo LED.
@@ -110,9 +106,7 @@ La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 
 Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della caratteristica V-I di un diodo LED.
 
-![LED diode V-I curve video clip]({{site.baseurl}}/assets/video/VID20211213150044cut.mp4)
-
-![](https://raw.githubusercontent.com/ROBOTICronics/roboticronics.github.io/main/assets/video/VID20211213150044cut.mp4){width="750%"}
+<object data="/assets/video/VID20211213150044cut.mp4" type="application/mp4" width="75%"></object>
 
 ### oppure.
 
