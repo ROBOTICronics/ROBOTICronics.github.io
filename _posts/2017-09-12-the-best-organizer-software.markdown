@@ -98,6 +98,10 @@ Ricavare le coppie (V,I) ottenuto variando il valore R del circuito rappresentat
 
 Fig.3 ![Caratteristica V-I a punti]({{site.baseurl}}/assets/img/diodo-Vth.png)
 
-a) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
+i) Effettuare una regressione lineare sui punti ricavati nella Fig.3, per trovare il valore $$V_{th}$$ di attivazione. Utilizzando un sistema di acquisizione dati tramite l'utilizzo di un micro-controllore è possibile ottenere la caratteristica V-I di un diodo LED molto densa di coppie (I, V): la seguente figura mostra tre diverse caratteristiche V-I di tre diodi LED, di colore rosso, di colore verde e di colore blu
 
-b) Effettuare una regressione lineare sui punti ricavati nella Fig.3, per trovare il valore $$V_{th}$$ di attivazione.
+Fig.4 ![Acquisizione della caratteristica V-I]({{site.baseurl}}/assets/img/2021-12-13_105244RedGreenBluLED-VIcurves.png)
+
+### oppure.
+ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
+
