@@ -63,17 +63,13 @@ Calcolare la tensione di innesco del led, ovvero la differenza di potenziale che
 - Fase 1: Preparazione dell’H/w (inserire anche una foto del progetto reale)
 Si utilizzao 3 led (verde, giallo, rosso), una breadboard, una resistore, vari cavi e un potenziometro e Arduino.
 - La tensione di attivazione del diodo LED:
-  - Metodo 1. All'interno di una camera oscurata si miusra la tensione ai capi dei terminali anodo e catodo con un voltmetro, rilevando questa tensione elettrica di attivazione nel momento in cui il diodo LED emette luce.
+  - Metodo 1. All'interno di una camera oscurata si misura la tensione ai capi dei terminali anodo e catodo con un voltmetro, rilevando questa tensione elettrica di attivazione nel momento in cui il diodo LED emette luce.
   - Metodo 2. Determinazione della caratteristica I-V del diodo LED, estrapolando la tensione al *ginocchio* di detta curva:
     - Metodo 2a. Manualmente, individuando due punti corrente-tensione, tracciando i punto di attivazione del diodo LED.
     - Metodo 2b. Automatizzando il tracciamento della curva caratteristica V-I del diodo LED con l'uso di un $$\mu C$$ ed estrapolando la tensione di attivazione.
 
-## Dati ottenuti dalle misurazioni
----
-Tipo LED | Lunghezza d'onda (nm)  | Frequenza (Hz) | Tensione di attivazione (V)|
-| Infrarosso | 930 | 3.22581 | 1.0 |
-|  |
----
+
+
 
 Dalla formula 1.1 si ricava:
 
@@ -84,7 +80,7 @@ Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}
 ![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
 
 ### Metodo 2a.
-Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C),$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
+Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
 
 L'esperimento si svolgerà in modo tale da trovare il valore $$V_{LED}$$ che rappresenta la tensione di attivazione del diodo LED.
 
@@ -98,7 +94,7 @@ Ricavare le coppie (V,I) ottenuto variando il valore R del circuito rappresentat
 
 Fig.3 ![Caratteristica V-I a punti]({{site.baseurl}}/assets/img/diodo-Vth.png)
 
-i) Effettuare una regressione lineare sui punti ricavati nella Fig.3, per trovare il valore $$V_{th}$$ di attivazione.
+i) Effettuare una regressione lineare sui punti ricavati nella Fig.3, per trovare il valore $$V_{LED}$$ di attivazione.
 
 Utilizzando un sistema di acquisizione automatica di dati tramite l'utilizzo di un micro-controllore è possibile ottenere la caratteristica V-I di un diodo LED molto densa di coppie (I, V): la seguente figura mostra tre diverse caratteristiche V-I di tre diodi LED, di colore rosso, verde e blu.
 
@@ -106,11 +102,11 @@ Fig.4 ![Acquisizione della caratteristica V-I]({{site.baseurl}}/assets/img/2021-
 
 La regressione lineare $$ y = k\cdot x + q $$ comporta per i tre diodi LED:
 
-|diodo LED | k | k_error | q | error_q|
+|diodo LED | k | k_error | q | error_q| $$V_{LED}$$|
 |----------|:---:|:---:|:---:|:---:|
-| Rosso | 3.38014 | +/- 0.2823       (8.352%) | -2.31808!| +/- 0.4436       (19.14%) |
-|  Verde | 2.55754 | +/- 0.1625       (6.356%) | -2.49641| +/- 0.3437       (13.77%) |
-| Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.31808| +/- 0.3618       (16.79%)|
+| Rosso | 3.38014 | +/- 0.2823       (8.352%) | -2.31808 | +/- 0.4436       (19.14%) | 1.458 |
+|  Verde | 2.55754 | +/- 0.1625       (6.356%) | -2.49641| +/- 0.3437       (13.77%) | 1.0245 |
+| Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.15497| +/- 0.3618       (16.79%)| 1.0263 |
 
 
 ### oppure.
