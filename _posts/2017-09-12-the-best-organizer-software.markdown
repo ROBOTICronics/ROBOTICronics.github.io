@@ -105,13 +105,13 @@ Utilizzando un sistema di acquisizione automatica di dati tramite l'utilizzo di 
 Fig.4 ![Acquisizione della caratteristica V-I]({{site.baseurl}}/assets/img/2021-12-13_105244RedGreenBluLED-VIcurves.png)
 
 La regressione lineare $$ y = k\cdot x + q $$ comporta per i tre diodi LED:
----
+
 |diodo LED | k | q |
 |----------|---|---|
 | Rosso | 3.38014 | -2.31808!|
 |  Verde |  | |
 ! Blu |  | | 
----
+
 
 Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
