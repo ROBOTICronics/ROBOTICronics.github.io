@@ -98,10 +98,27 @@ Ricavare le coppie (V,I) ottenuto variando il valore R del circuito rappresentat
 
 Fig.3 ![Caratteristica V-I a punti]({{site.baseurl}}/assets/img/diodo-Vth.png)
 
-i) Effettuare una regressione lineare sui punti ricavati nella Fig.3, per trovare il valore $$V_{th}$$ di attivazione. Utilizzando un sistema di acquisizione dati tramite l'utilizzo di un micro-controllore è possibile ottenere la caratteristica V-I di un diodo LED molto densa di coppie (I, V): la seguente figura mostra tre diverse caratteristiche V-I di tre diodi LED, di colore rosso, di colore verde e di colore blu
+i) Effettuare una regressione lineare sui punti ricavati nella Fig.3, per trovare il valore $$V_{th}$$ di attivazione.
+
+Utilizzando un sistema di acquisizione automatica di dati tramite l'utilizzo di un micro-controllore è possibile ottenere la caratteristica V-I di un diodo LED molto densa di coppie (I, V): la seguente figura mostra tre diverse caratteristiche V-I di tre diodi LED, di colore rosso, verde e blu.
 
 Fig.4 ![Acquisizione della caratteristica V-I]({{site.baseurl}}/assets/img/2021-12-13_105244RedGreenBluLED-VIcurves.png)
 
+La regressione lineare $$ y = k\cdot x + q $$ comporta per i tre diodi LED:
+---
+|diodo LED | k | q |
+|----------|---|---|
+| Rosso | 3.38014 | -2.31808!|
+|  Verde |  | |
+! Blu |  | | 
+---
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = 3.38014          +/- 0.2823       (8.352%)
+q               = -2.31808         +/- 0.4436       (19.14%)
+
 ### oppure.
+
 ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
 
