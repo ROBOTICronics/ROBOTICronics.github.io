@@ -112,6 +112,8 @@ Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della ca
 
 ![LED diode V-I curve video clip]({{site.baseurl}}/assets/video/VID20211213150044cut.mp4)
 
+![](https://raw.githubusercontent.com/ROBOTICronics/roboticronics.github.io/main/assets/video/VID20211213150044cut.mp4){width="750%"}
+
 ### oppure.
 
 ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
