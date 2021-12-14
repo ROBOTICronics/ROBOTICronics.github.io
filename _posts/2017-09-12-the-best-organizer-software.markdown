@@ -108,6 +108,8 @@ Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della ca
 
 ![LED diode V-I curve acquisition](https://youtu.be/GvyFjZKFt-g)
 
+[![Everything Is AWESOME](https://i9.ytimg.com/vi/GvyFjZKFt-g/mq2.jpg?sqp=CLCI440G&rs=AOn4CLDL9om2rnnqobOOa3JsA16s6FobaA)](https://www.youtube.com/watch?v=GvyFjZKFt-g "Everything Is AWESOME")
+
 ### oppure
 
 ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
