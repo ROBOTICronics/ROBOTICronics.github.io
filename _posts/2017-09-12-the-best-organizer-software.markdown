@@ -110,7 +110,7 @@ Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della ca
   <iframe src="https://drive.google.com/file/d/1cB21b5hqTXkdI0XR-aguuLYEeTyGIvLB/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
-### oppure.
+### oppure
 
 ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
 
