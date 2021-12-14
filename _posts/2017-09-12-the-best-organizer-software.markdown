@@ -105,12 +105,10 @@ La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 | Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.15497| +/- 0.3618       (16.79%)| 1.0263 | 470 |
 
 Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della caratteristica V-I di un diodo LED.
+![V-I curve acquisition](https://youtu.be/jutbWnO0SMA)
 
 <figure class="video_container">
-  <iframe src="https://3agv2004.info/GitHub.io/VID20211213150044cut.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<figure class="video_container">
-  <iframe src=""></iframe>
+  <iframe src="https://youtu.be/jutbWnO0SMA" frameborder="0" allowfullscreen="true"></iframe>
 </figure>
 
 ### oppure
