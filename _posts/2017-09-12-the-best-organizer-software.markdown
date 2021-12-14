@@ -109,6 +109,9 @@ Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della ca
 <figure class="video_container">
   <iframe src="https://drive.google.com/file/d/1cB21b5hqTXkdI0XR-aguuLYEeTyGIvLB/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
+<figure class="video_container">
+  <iframe src="https://tinyurl.com/yckthnhw></iframe>
+</figure>
 
 ### oppure
 
