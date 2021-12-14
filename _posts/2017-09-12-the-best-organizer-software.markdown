@@ -108,7 +108,7 @@ Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della ca
 ![V-I curve acquisition](https://youtu.be/jutbWnO0SMA)
 
 <figure class="video_container">
-  <iframe src="https://youtu.be/jutbWnO0SMA" frameborder="0" allowfullscreen="true"></iframe>
+  <iframe src="https://youtu.be/GvyFjZKFt-g " frameborder="0" allowfullscreen="true"></iframe>
 </figure>
 
 ### oppure
