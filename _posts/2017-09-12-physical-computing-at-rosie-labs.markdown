@@ -106,7 +106,7 @@ La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 
 Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della caratteristica V-I di un diodo LED.
 
-[![LED diode V-I curve acquisition ith C](https://i9.ytimg.com/vi/oEQBPnFGiSM/mq3.jpg?sqp=CJDm440G&rs=AOn4CLDdaPDrZ5pphl7qmhKjOw4qKBnPeA)](https://youtu.be/oEQBPnFGiSM "Everything Is AWESOME")
+[![LED diode V-I curve acquisition ith C](https://i9.ytimg.com/vi/oEQBPnFGiSM/mq3.jpg?sqp=CLCDuI4G&rs=AOn4CLDljLl_7Vsps42H_uZj9J6XT_583g)](https://youtu.be/oEQBPnFGiSM "Everything Is AWESOME")
 
 ![formula 1.3](https://render.githubusercontent.com/render/math?math=h = \displaystyle\frac{e\cdot\lambda_{LEDcolour}}{c}\cdot V_{LED} = \displaystyle\frac{1.602\cdot10^{-19}\cdot\lambda_{LEDcolour}\cdot10^{-9}{299792458}\cdot V_{LED})
 
@@ -114,13 +114,13 @@ che porta per i tre diodi LED
 
 |diodo LED | h | h_error |
 |----------|:---:|:---:|
-| Rosso | $$6.23\cdot10^{34}$$ | +/- ...     (...%) |
-|  Verde | $$6.86\cdot10^{34}$$ | +/- ...    (...%) | 
-| Blu | $$6.44\cdot10^{34}$$ | +/- ...       (...%) |
+| Rosso | $$6.23\cdot10^{-34}$$ | +/- ...     (...%) |
+|  Verde | $$6.86\cdot10^{-34}$$ | +/- ...    (...%) | 
+| Blu | $$6.44\cdot10^{-34}$$ | +/- ...       (...%) |
 
 da cui si prende il valore medio:
 
-![Costante di Planck](https://render.githubusercontent.com/render/math?math=h = 6.51\cdot10^{34})
+![Costante di Planck](https://render.githubusercontent.com/render/math?math=h = 6.51\cdot10^{-34})
 
 Si lascia al lettore il calcolo dell'incertezza delle misure.
 ### oppure
