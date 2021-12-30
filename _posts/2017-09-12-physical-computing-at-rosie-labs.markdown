@@ -124,5 +124,5 @@ $$h = 6.51\cdot10^{34}$$
 Si lascia al lettore il calcolo dell'incertezza delle misure.
 ### oppure
 
-ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
+ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$....in progress.
 
