@@ -76,7 +76,7 @@ Dal grafico ottenuto riportando i dati dalla tabella, si ricava $$\frac{V_{LED}}
 ![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
 
 ### Metodo 2b.
-Sono noti i seguenti dati: $$q= 1,602 x 10^{-19} C$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 x 10^{-23} J/K$$ (la costante di Boltzmann).
+Sono noti i seguenti dati: $$q= 1,602 \cdot 10^{-19} C$$ (valore elementare della carica elettrica), $$\lambda$$ (lunghezza d’onda della luce emessa dal diodo LED) e $$c$$ (velocità della luce), $$k = 1,3806488 \cdot 10^{-23} J/K$$ (la costante di Boltzmann).
 
 L'esperimento si svolgerà in modo tale da trovare il valore $$V_{LED}$$ che rappresenta la tensione di attivazione del diodo LED.
 
@@ -108,7 +108,7 @@ Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della ca
 
 [![LED diode V-I curve acquisition ith C](https://i9.ytimg.com/vi/oEQBPnFGiSM/mq3.jpg?sqp=CJDm440G&rs=AOn4CLDdaPDrZ5pphl7qmhKjOw4qKBnPeA)](https://youtu.be/oEQBPnFGiSM "Everything Is AWESOME")
 
-$$ h = \displaystyle\frac{e\cdot\lambda_{LEDcolour}}{c}\cdot V_{LED} = \displaystyle\frac{1.602\cdot10^{-19}\cdot\lambda_{LEDcolour}\cdot10^{-9}{299792458}\cdot V_{LED}$$
+![formula 1.3](https://render.githubusercontent.com/render/math?math=h = \displaystyle\frac{e\cdot\lambda_{LEDcolour}}{c}\cdot V_{LED} = \displaystyle\frac{1.602\cdot10^{-19}\cdot\lambda_{LEDcolour}\cdot10^{-9}{299792458}\cdot V_{LED})
 
 che porta per i tre diodi LED
 
@@ -117,9 +117,10 @@ che porta per i tre diodi LED
 | Rosso | $$6.23\cdot10^{34}$$ | +/- ...     (...%) |
 |  Verde | $$6.86\cdot10^{34}$$ | +/- ...    (...%) | 
 | Blu | $$6.44\cdot10^{34}$$ | +/- ...       (...%) |
+
 da cui si prende il valore medio:
 
-$$h = 6.51\cdot10^{34}$$
+![Costante di Planck](https://render.githubusercontent.com/render/math?math=h = 6.51\cdot10^{34})
 
 Si lascia al lettore il calcolo dell'incertezza delle misure.
 ### oppure
