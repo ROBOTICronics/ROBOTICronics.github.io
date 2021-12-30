@@ -106,15 +106,11 @@ La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 
 Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della caratteristica V-I di un diodo LED.
 
-[![LED diode V-I curve acquisition]({{site.baseurl}}/assets/img/mq3.png)](https://youtu.be/oEQBPnFGiSM "Everything Is AWESOME")
-
-[LED diode VI curve acquisition]({{site.baseurl}}/assets/img/mq3.png)
-
-![Grafico frequenza/tensione_di_attivazione]({{site.baseurl}}/assets/img/2021-12-08_192024.png)
+[![LED diode V-I curve acquisition]({{site.baseurl}}/assets/img/mq3.png)](https://www.youtube.com/watch?v=oEQBPnFGiSM "Everything Is AWESOME")
 
 ![formula 1.3](https://render.githubusercontent.com/render/math?math=h = \displaystyle\frac{e\cdot\lambda_{LEDcolour}}{c}\cdot V_{LED} = \displaystyle\frac{1.602\cdot10^{-19}\cdot\lambda_{LEDcolour}\cdot10^{-9}{299792458}\cdot V_{LED})
 
-che porta per i tre diodi LED
+che comporta per i tre diodi LED
 
 |diodo LED | h | h_error |
 |----------|:---:|:---:|
@@ -122,7 +118,7 @@ che porta per i tre diodi LED
 |  Verde | $$6.86\cdot10^{-34}$$ | +/- ...    (...%) | 
 | Blu | $$6.44\cdot10^{-34}$$ | +/- ...       (...%) |
 
-da cui si prende il valore medio come valore misurato attendibile:
+Se ne deduce, allora, il valore misurato attendibile per $$h$$:
 
 ![Costante di Planck](https://render.githubusercontent.com/render/math?math=h = 6.51\cdot10^{-34})
 
