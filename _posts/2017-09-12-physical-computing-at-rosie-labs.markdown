@@ -100,14 +100,15 @@ La regressione lineare $$ y = m\cdot x + n $$ comporta per i tre diodi LED:
 
 |diodo LED | m | m_error | n | error_n| $$V_{LED}$$| $$\lambda$$ (nm) |
 |----------|:---:|:---:|:---:|:---:|
-| Rosso | 3.38014 | +/- 0.2823       (8.352%) | -2.31808 | +/- 0.4436       (19.14%) | 1.458 | 630 |
-|  Verde | 2.55754 | +/- 0.1625       (6.356%) | -2.49641| +/- 0.3437       (13.77%) | 1.0245 | 525 |
-| Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.15497| +/- 0.3618       (16.79%)| 1.0263 | 470 |
+| Rosso | 3.38014 | +/- 0.2823       (8.352%) | -2.31808 | +/- 0.4436       (19.14%) | 1.458 | 665 |
+|  Verde | 2.55754 | +/- 0.1625       (6.356%) | -2.49641| +/- 0.3437       (13.77%) | 2.245 | 565 |
+| Blu | 2.21159 | +/- 0.1685       (7.621%) |-2.15497| +/- 0.3618       (16.79%)| 2.473 | 490 |
 
 Segue una brevissima video clip che riprende l'acquisizione a $$\mu C$$ della caratteristica V-I di un diodo LED.
 
 [![LED diode V-I curve acquisition ith C](https://i9.ytimg.com/vi/oEQBPnFGiSM/mq3.jpg?sqp=CJDm440G&rs=AOn4CLDdaPDrZ5pphl7qmhKjOw4qKBnPeA)](https://youtu.be/oEQBPnFGiSM "Everything Is AWESOME")
 
+$$ h = \displaystyle\frac{e\cdot\lambda_{LEDcolour}}{c}\cdot V_{LED} = \displaystyle\frac{1.602\cdot10^{-19}\cdot\lambda_{LEDcolour}\cdot10^{-9}{299792458}\cdot V_{LED}$$
 ### oppure
 
 ii) Presi due punti sul grafico, si sostituiscono le loro coordinate (y, x) nell'equazione del diodo LED, risolvendo per la quantità $$\frac{q}{\eta kT}$$ e per $$I_S$$.
