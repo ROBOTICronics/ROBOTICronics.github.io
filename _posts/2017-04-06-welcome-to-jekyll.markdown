@@ -9,15 +9,15 @@ img:  /assets/img/myPCBs.png # Add image post (optional)
 # Development Boards for playfulness (PCB view)
 ## 1.  Essential PCB
   - **using OLEDs** -
-  - ![1st Board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/learnOLEDs.png)
+  - ![1st Board](/assets/img/learnOLEDs.png)
   - [PCB board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/learnOLEDs.zip "download LearnOLEDs PCB")
 ## 2.  StandardPCB
   - **w/ ATMEGA328P**
-  - ![2nd Board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/wATMEGA328P.png)
+  - ![2nd Board](/assets/img/wATMEGA328P.png)
   - [PCB board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/wATMEGA328P.zip "download wATMEGA328P PCB")
 ## 3. Panel PowerSupply
   - ** **
-  - ![3rd Board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/panelpowersupply.png)
+  - ![3rd Board](/assets/img/panelpowersupply.png)
   - [PCB board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/panel-power-supply.zip "download Panel Power Supply PCB")
 
 ...
