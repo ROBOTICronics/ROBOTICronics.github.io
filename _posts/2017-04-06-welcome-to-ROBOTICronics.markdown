@@ -14,7 +14,7 @@ img:  myPCBs.png # Add image post (optional)
 ## 2.  StandardPCB
   - **w/ ATMEGA328P**
   - ![2nd Board]({{site.baseurl}}/assets/img/wATMEGA328P.png)
-  - [PCB board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/wATMEGA328P.zip "download wATMEGA328P PCB")
+  - <a href="[files/file.csv](https://github.com/ROBOTICronics/PCB/tree/main/xMM/wATMEGA328P.zip)" download="wATMEGA328P">Click to download wATMEGA328P PCB</a> #- [PCB board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/wATMEGA328P.zip" download wATMEGA328P PCB")
 ## 3. Panel PowerSupply
   - ** **
   - ![3rd Board]({{site.baseurl}}/assets/img/panelpowersupply.png)
