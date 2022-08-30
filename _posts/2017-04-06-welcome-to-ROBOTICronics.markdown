@@ -10,12 +10,12 @@ img:  myPCBs.png # Add image post (optional)
 ## 1.  Essential PCB
   - **using OLEDs** -
   - ![1st Board]({{site.baseurl}}/assets/img/learnOLEDs.png)
-  - <a href="https://raw.githubusercontent.com/ROBOTICronics/PCB/tree/main/xMM/learnOLEDs.zip" download="wATMEGA328P">Click to download learnOLEDs PCB</a>
+  - <a href="https://raw.githubusercontent.com/ROBOTICronics/PCB/blob/main/xMM/learnOLEDs.zip" download="wATMEGA328P">Click to download learnOLEDs PCB</a>
 
 ## 2.  StandardPCB
   - **w/ ATMEGA328P**
   - ![2nd Board]({{site.baseurl}}/assets/img/wATMEGA328P.png)
-  - [wATMEGA328P](https://raw.githubusercontent.com/ROBOTICronics/PCB/tree/main/xMM/wATMEGA328P.zip)
+  - [wATMEGA328P](https://raw.githubusercontent.com/ROBOTICronics/PCB/blob/main/xMM/wATMEGA328P.zip)
 
 ## 3. Panel PowerSupply
   - ** Power more than a single panel **
