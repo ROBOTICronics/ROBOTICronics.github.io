@@ -10,7 +10,7 @@ img:  myPCBs.png # Add image post (optional)
 ## 1.  Essential PCB
   - **using OLEDs** -
   - ![1st Board]({{site.baseurl}}/assets/img/learnOLEDs.png)
-  - [PCB board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/learnOLEDs.zip "download LearnOLEDs PCB")
+  - [PCB board](https://github.com/ROBOTICronics/PCB/tree/main/xMM/learnOLEDs.zip)
 ## 2.  StandardPCB
   - **w/ ATMEGA328P**
   - ![2nd Board]({{site.baseurl}}/assets/img/wATMEGA328P.png)
