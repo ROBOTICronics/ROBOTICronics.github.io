@@ -20,7 +20,7 @@ img:  myPCBs.png # Add image post (optional)
 ## 3. Panel PowerSupply
   - ** Power more than a single panel **
   - ![3rd Board]({{site.baseurl}}/assets/img/panelpowersupply.png)
-  - <a href="https://github.com/ROBOTICronics/PCB/tree/main/xMM/panel-power-supply.zip" download="panel-power-supplyP">Click to download Panel Power Supply PCB</a> 
+  - <a href="https://github.com/ROBOTICronics/PCB/tree/main/xMM/panel-power-supply.zip?raw=true" download="panel-power-supplyP">Click to download Panel Power Supply PCB</a> 
 
 ...
 
