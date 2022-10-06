@@ -17,10 +17,7 @@ img:  myPCBs.png # Add image post (optional)
   - ![2nd Board]({{site.baseurl}}/assets/img/boiler.png)
   - [Click to download Boiler Switch Gerber file](https://github.com/ROBOTICronics/PCB/blob/main/xMM/boiler-switch.zip?raw=true)
 
-## 3. Panel PowerSupply
-  - ** Power more than a single panel **
-  - ![3rd Board]({{site.baseurl}}/assets/img/Noname.png)
-  - <a href="https://github.com/ROBOTICronics/PCB/blob/main/xMM/noname.zip?raw=true">Click to download Noname Gerber file</a> 
+## 3.
 
 ...
 
