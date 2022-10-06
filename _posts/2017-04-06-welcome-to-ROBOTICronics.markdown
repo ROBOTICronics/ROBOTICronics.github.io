@@ -10,12 +10,12 @@ img:  myPCBs.png # Add image post (optional)
 ## 1.  Essential PCB
   - **T Logger** -
   - ![1st Board]({{site.baseurl}}/assets/img/Tlogger.png)
-  - <a href="https://github.com/ROBOTICronics/PCB/blob/main/xMM/temp-logger.zip?raw=true" download="TempLog">Click to download Tlogger Gerber file</a>
+  - <a href="https://github.com/ROBOTICronics/PCB/blob/main/xMM-Oct2022/temp-logger.zip?raw=true" download="TempLog">Click to download Tlogger Gerber file</a>
 
 ## 2.  StandardPCB
   - **Boiler Switch**
   - ![2nd Board]({{site.baseurl}}/assets/img/boiler.png)
-  - [Click to download Boiler Switch Gerber file](https://github.com/ROBOTICronics/PCB/blob/main/xMM/boiler-switch.zip?raw=true)
+  - [Click to download Boiler Switch Gerber file](https://github.com/ROBOTICronics/PCB/blob/main/xMM-Oct2022/boiler-switch.zip?raw=true)
 
 ## 3.
 
