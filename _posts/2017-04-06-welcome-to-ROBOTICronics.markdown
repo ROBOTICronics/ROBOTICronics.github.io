@@ -17,7 +17,11 @@ img:  myPCBs.png # Add image post (optional)
   - ![2nd Board]({{site.baseurl}}/assets/img/boiler.png)
   - [Click to download Boiler Switch Gerber file](https://github.com/ROBOTICronics/PCB/blob/main/xMM-Oct2022/boiler-switch.zip?raw=true)
 
-## 3.
+## 3.  StandardPCB
+  - **Power Measure**
+  - ![3rd Board]({{site.baseurl}}/assets/img/powmeas.png)
+  - [Click to download PowerMeasure Gerber file](https://github.com/ROBOTICronics/PCB/blob/main/xMM-Oct2022/powmeas.zip?raw=true)
+
 
 ...
 
